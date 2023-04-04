@@ -1,0 +1,22 @@
+{
+  "name": "SidewalkSDK",
+  "version": "0.1.0",
+  "summary": "A short description of SidewalkSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/64646798/SidewalkSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "64646798": "79111711+AnupamAS01@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/64646798/SidewalkSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SidewalkSDK/Classes/**/*"
+}

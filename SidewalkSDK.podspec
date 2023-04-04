@@ -8,8 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SidewalkSDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SidewalkSDK.'
+  s.version          = '1.1.0'
+  s.swift_version    = '5'
+  s.summary          = ' SidewalkSD its just for POC purpose  it wont harm any user using it as it is build on the cocapods example dir.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +19,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+ here nothing muchSidewal kSDSidewalkSDSidewalkSDSide walkSDSidewalkSD
+  SidewalkSDSidewalkSDS idewalkSD Side   SidewalkSDSidewalkSDSidewalkSD walkSD    Sidewal kSD
                        DESC
 
-  s.homepage         = 'https://github.com/64646798/SidewalkSDK'
+  s.homepage         = 'https://github.com/AnupamAS0x1/SidewalkSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '64646798' => '79111711+AnupamAS01@users.noreply.github.com' }
-  s.source           = { :git => 'https://github.com/64646798/SidewalkSDK.git', :tag => s.version.to_s }
+  s.author           = { 'AnupamAS01' => 'anupam936574@gmail.com' }
+  s.source           = { :git => 'https://github.com/AnupamAS0x1/SidewalkSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
-  s.source_files = 'SidewalkSDK/Classes/**/*'
+  s.source_files = 'SidewalkSDK/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'SidewalkSDK' => ['SidewalkSDK/Assets/*.png']

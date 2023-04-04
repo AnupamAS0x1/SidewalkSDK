@@ -1,0 +1,16 @@
+PODS:
+  - SidewalkSDK (0.1.0)
+
+DEPENDENCIES:
+  - SidewalkSDK (from `../`)
+
+EXTERNAL SOURCES:
+  SidewalkSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SidewalkSDK: f859f1311e10049dc5dde6702483aa7d0ce2784c
+
+PODFILE CHECKSUM: ea5de05a01b9c0f1785a6121805784f1e27c378c
+
+COCOAPODS: 1.12.0

@@ -1,0 +1,6 @@
+framework module SidewalkSDK {
+  umbrella header "SidewalkSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

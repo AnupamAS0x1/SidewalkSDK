@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24C823E17D102DE0E12E19B5CC5FA101 /* SidewalkSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F8D34E32F5450037E54FE933B30CA53 /* SidewalkSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50E9767DE7C83647526502450E051112 /* Pods-SidewalkSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C5AB1FE1946C44B53E7B195649635C /* Pods-SidewalkSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54412DC99C0F5535EAA26349FF54F607 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7B87BBE629DCA383001FAC39 /* SidewalkSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B87BBE529DCA383001FAC39 /* SidewalkSDK.swift */; };
+		7F1503009770C569ECEAAAB487AFE40A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		911427FCE56C9766C93D1ED984744FCB /* SidewalkSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD9E19039C81A8FCD4BFC252AFBCB9 /* SidewalkSDK-dummy.m */; };
+		95E335B7C3D1794F507FAF87017D5EFE /* Pods-SidewalkSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6450E9705223E7504AFBBDADD71AD209 /* Pods-SidewalkSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1CCEDC9BA069E5D43DD8C06CE643B60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C3190F0496FC0CC1194FF34688974E53 /* Pods-SidewalkSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 246E4C4BB9F8C73ED49F652ED9AA3EB3 /* Pods-SidewalkSDK_Tests-dummy.m */; };
+		F3E8A4FA3E72E2E2794CE517B8BBC551 /* Pods-SidewalkSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D16496569CF89B73FD0E0BF75F6ABBAE /* Pods-SidewalkSDK_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		549CC047FD536F02845F37CDDCBB92E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6927FFACD9C9A76FFD12A17F92121693;
+			remoteInfo = "Pods-SidewalkSDK_Example";
+		};
+		631C6DA2B637764C9DBE1D519EE77EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7720B4F5A906FE27F3E668433E494642;
+			remoteInfo = SidewalkSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		082D8BEF0D655D3D810E823EAF034628 /* Pods_SidewalkSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SidewalkSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15DBE39DF0265067513EB36539E41CB1 /* Pods-SidewalkSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SidewalkSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		16868D1903C49A6DAF7EF739475A60D0 /* SidewalkSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SidewalkSDK.modulemap; sourceTree = "<group>"; };
+		1D803428BA12C6C5C6E27B58368EE4D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1F8D34E32F5450037E54FE933B30CA53 /* SidewalkSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SidewalkSDK-umbrella.h"; sourceTree = "<group>"; };
+		1FFAA51844E9D9003975E598F6C20D60 /* Pods-SidewalkSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SidewalkSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		246E4C4BB9F8C73ED49F652ED9AA3EB3 /* Pods-SidewalkSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SidewalkSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		24C5AB1FE1946C44B53E7B195649635C /* Pods-SidewalkSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SidewalkSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3493B694B26EADF49BE8821F3541C18F /* Pods-SidewalkSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SidewalkSDK_Tests"; path = Pods_SidewalkSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8EB648311145686741BD646629368E /* Pods-SidewalkSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SidewalkSDK_Example.modulemap"; sourceTree = "<group>"; };
+		41EA61871FB721619AA7B493D77D077B /* Pods-SidewalkSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SidewalkSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5DB8A2FC8AF16183ED79DAA9A4C05605 /* SidewalkSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SidewalkSDK-prefix.pch"; sourceTree = "<group>"; };
+		6450E9705223E7504AFBBDADD71AD209 /* Pods-SidewalkSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SidewalkSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		6681540BD9619B37058BAF905BBAFCA2 /* SidewalkSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SidewalkSDK.debug.xcconfig; sourceTree = "<group>"; };
+		6A8DFD6424C284612FBCA6E2C6B92708 /* Pods-SidewalkSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SidewalkSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		6C21B64CEBB42605EBD90A4410676C6E /* SidewalkSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SidewalkSDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73C0218517ACF64334319B9CE5FAD710 /* Pods-SidewalkSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SidewalkSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B87BBE529DCA383001FAC39 /* SidewalkSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidewalkSDK.swift; sourceTree = "<group>"; };
+		7CADEF1BA2D55AECB58AD34F054C0E5F /* Pods-SidewalkSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SidewalkSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8393470E2978930DDA29CFFAC9C7F48D /* SidewalkSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SidewalkSDK; path = SidewalkSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89258132492AE4D5E9FF0422491EF414 /* Pods-SidewalkSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SidewalkSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A571F26FC25ADA11BAD9CA8D7953F0A4 /* SidewalkSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SidewalkSDK-Info.plist"; sourceTree = "<group>"; };
+		BECB83CB629D5F4A12B3F7110B8C4548 /* Pods-SidewalkSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SidewalkSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C65804E1E654952781DF3701898E0A5B /* Pods-SidewalkSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SidewalkSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D16496569CF89B73FD0E0BF75F6ABBAE /* Pods-SidewalkSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SidewalkSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		D1F302BD6FBC1878EA536CEB33E6E3D2 /* Pods-SidewalkSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SidewalkSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D922899076B662F2FBEADF54956BFFAC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DA46FDB8A2C3643A9D59644F63E18566 /* SidewalkSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SidewalkSDK.release.xcconfig; sourceTree = "<group>"; };
+		DCCD9E19039C81A8FCD4BFC252AFBCB9 /* SidewalkSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SidewalkSDK-dummy.m"; sourceTree = "<group>"; };
+		E41941FC747B0E42E7E7E043CF3FD1D3 /* Pods-SidewalkSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SidewalkSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F81EE36A14735EF6772D3D6BF9119052 /* Pods-SidewalkSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SidewalkSDK_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F132FE672A43082283764901A77B94D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54412DC99C0F5535EAA26349FF54F607 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90897B59FB574D46E63B2006BFFD24A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1503009770C569ECEAAAB487AFE40A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFD5DD9EB7ED205B5E69FCFEC5D4B0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1CCEDC9BA069E5D43DD8C06CE643B60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05859266747997F647513A1C4C9E30D2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E54A119409804DD45C84FBE57C4827F2 /* Pods-SidewalkSDK_Example */,
+				661BB67BDD55900128E0D672ABC589BF /* Pods-SidewalkSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		457C10A82E573E84C0DF04743F1C2728 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4A514B28E9EB2158A245F0EFC0A5606 /* SidewalkSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5339E4226A5AF0CA7668B623BB42310B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				082D8BEF0D655D3D810E823EAF034628 /* Pods_SidewalkSDK_Example.framework */,
+				3493B694B26EADF49BE8821F3541C18F /* Pods-SidewalkSDK_Tests */,
+				8393470E2978930DDA29CFFAC9C7F48D /* SidewalkSDK */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		661BB67BDD55900128E0D672ABC589BF /* Pods-SidewalkSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F81EE36A14735EF6772D3D6BF9119052 /* Pods-SidewalkSDK_Tests.modulemap */,
+				E41941FC747B0E42E7E7E043CF3FD1D3 /* Pods-SidewalkSDK_Tests-acknowledgements.markdown */,
+				D1F302BD6FBC1878EA536CEB33E6E3D2 /* Pods-SidewalkSDK_Tests-acknowledgements.plist */,
+				246E4C4BB9F8C73ED49F652ED9AA3EB3 /* Pods-SidewalkSDK_Tests-dummy.m */,
+				6A8DFD6424C284612FBCA6E2C6B92708 /* Pods-SidewalkSDK_Tests-Info.plist */,
+				24C5AB1FE1946C44B53E7B195649635C /* Pods-SidewalkSDK_Tests-umbrella.h */,
+				89258132492AE4D5E9FF0422491EF414 /* Pods-SidewalkSDK_Tests.debug.xcconfig */,
+				41EA61871FB721619AA7B493D77D077B /* Pods-SidewalkSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-SidewalkSDK_Tests";
+			path = "Target Support Files/Pods-SidewalkSDK_Tests";
+			sourceTree = "<group>";
+		};
+		9FA72AA99BC13F528756DC4481AF3DC3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16868D1903C49A6DAF7EF739475A60D0 /* SidewalkSDK.modulemap */,
+				DCCD9E19039C81A8FCD4BFC252AFBCB9 /* SidewalkSDK-dummy.m */,
+				A571F26FC25ADA11BAD9CA8D7953F0A4 /* SidewalkSDK-Info.plist */,
+				5DB8A2FC8AF16183ED79DAA9A4C05605 /* SidewalkSDK-prefix.pch */,
+				1F8D34E32F5450037E54FE933B30CA53 /* SidewalkSDK-umbrella.h */,
+				6681540BD9619B37058BAF905BBAFCA2 /* SidewalkSDK.debug.xcconfig */,
+				DA46FDB8A2C3643A9D59644F63E18566 /* SidewalkSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SidewalkSDK";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				457C10A82E573E84C0DF04743F1C2728 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5339E4226A5AF0CA7668B623BB42310B /* Products */,
+				05859266747997F647513A1C4C9E30D2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC4FDAE9D06DB11F34C758BF65C93125 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D922899076B662F2FBEADF54956BFFAC /* LICENSE */,
+				1D803428BA12C6C5C6E27B58368EE4D0 /* README.md */,
+				6C21B64CEBB42605EBD90A4410676C6E /* SidewalkSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E4A514B28E9EB2158A245F0EFC0A5606 /* SidewalkSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DC4FDAE9D06DB11F34C758BF65C93125 /* Pod */,
+				9FA72AA99BC13F528756DC4481AF3DC3 /* Support Files */,
+				7B87BBE529DCA383001FAC39 /* SidewalkSDK.swift */,
+			);
+			name = SidewalkSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E54A119409804DD45C84FBE57C4827F2 /* Pods-SidewalkSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3E8EB648311145686741BD646629368E /* Pods-SidewalkSDK_Example.modulemap */,
+				73C0218517ACF64334319B9CE5FAD710 /* Pods-SidewalkSDK_Example-acknowledgements.markdown */,
+				1FFAA51844E9D9003975E598F6C20D60 /* Pods-SidewalkSDK_Example-acknowledgements.plist */,
+				D16496569CF89B73FD0E0BF75F6ABBAE /* Pods-SidewalkSDK_Example-dummy.m */,
+				BECB83CB629D5F4A12B3F7110B8C4548 /* Pods-SidewalkSDK_Example-frameworks.sh */,
+				15DBE39DF0265067513EB36539E41CB1 /* Pods-SidewalkSDK_Example-Info.plist */,
+				6450E9705223E7504AFBBDADD71AD209 /* Pods-SidewalkSDK_Example-umbrella.h */,
+				7CADEF1BA2D55AECB58AD34F054C0E5F /* Pods-SidewalkSDK_Example.debug.xcconfig */,
+				C65804E1E654952781DF3701898E0A5B /* Pods-SidewalkSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-SidewalkSDK_Example";
+			path = "Target Support Files/Pods-SidewalkSDK_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C66B0A4246DDEBBF58D8E502BFAE57B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C823E17D102DE0E12E19B5CC5FA101 /* SidewalkSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3096125A2DF162DC7EE13F45C08DDBB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E335B7C3D1794F507FAF87017D5EFE /* Pods-SidewalkSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D423D0ABD3CE4960C54EEB116C2A73B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E9767DE7C83647526502450E051112 /* Pods-SidewalkSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		58A4F07231EC0C51B8AE942D8FBF290A /* Pods-SidewalkSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A88CEA78C2B35E542AC6C34FE968A760 /* Build configuration list for PBXNativeTarget "Pods-SidewalkSDK_Tests" */;
+			buildPhases = (
+				D423D0ABD3CE4960C54EEB116C2A73B6 /* Headers */,
+				C6D6E746574FE7DB9C87CE67F815916D /* Sources */,
+				2F132FE672A43082283764901A77B94D /* Frameworks */,
+				4BBA5C6D37648567D3741196B88BB5B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				901669BA7AEAB070A3F4B9C4039A08BC /* PBXTargetDependency */,
+			);
+			name = "Pods-SidewalkSDK_Tests";
+			productName = Pods_SidewalkSDK_Tests;
+			productReference = 3493B694B26EADF49BE8821F3541C18F /* Pods-SidewalkSDK_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		6927FFACD9C9A76FFD12A17F92121693 /* Pods-SidewalkSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB762B5F25CDD56A38A0CEDFF79FA1DE /* Build configuration list for PBXNativeTarget "Pods-SidewalkSDK_Example" */;
+			buildPhases = (
+				D3096125A2DF162DC7EE13F45C08DDBB /* Headers */,
+				B084F2959B05DFAE8310263E620BDE47 /* Sources */,
+				C90897B59FB574D46E63B2006BFFD24A /* Frameworks */,
+				083F86305D586D0EA9B8E6BA03AA4C00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C82A1DF46238EBA8BC2E4D8703D4932 /* PBXTargetDependency */,
+			);
+			name = "Pods-SidewalkSDK_Example";
+			productName = Pods_SidewalkSDK_Example;
+			productReference = 082D8BEF0D655D3D810E823EAF034628 /* Pods_SidewalkSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7720B4F5A906FE27F3E668433E494642 /* SidewalkSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1669D4160C380C14894DA6B18CFBE8BD /* Build configuration list for PBXNativeTarget "SidewalkSDK" */;
+			buildPhases = (
+				C66B0A4246DDEBBF58D8E502BFAE57B4 /* Headers */,
+				53293588BA0559628B1FCBFBC80F2ACF /* Sources */,
+				CBFD5DD9EB7ED205B5E69FCFEC5D4B0B /* Frameworks */,
+				74E1EA5FE7CF0BEC4A384ECEDDC0A30D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SidewalkSDK;
+			productName = SidewalkSDK;
+			productReference = 8393470E2978930DDA29CFFAC9C7F48D /* SidewalkSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					6927FFACD9C9A76FFD12A17F92121693 = {
+						LastSwiftMigration = 1430;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5339E4226A5AF0CA7668B623BB42310B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6927FFACD9C9A76FFD12A17F92121693 /* Pods-SidewalkSDK_Example */,
+				58A4F07231EC0C51B8AE942D8FBF290A /* Pods-SidewalkSDK_Tests */,
+				7720B4F5A906FE27F3E668433E494642 /* SidewalkSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		083F86305D586D0EA9B8E6BA03AA4C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BBA5C6D37648567D3741196B88BB5B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E1EA5FE7CF0BEC4A384ECEDDC0A30D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53293588BA0559628B1FCBFBC80F2ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911427FCE56C9766C93D1ED984744FCB /* SidewalkSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B084F2959B05DFAE8310263E620BDE47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B87BBE629DCA383001FAC39 /* SidewalkSDK.swift in Sources */,
+				F3E8A4FA3E72E2E2794CE517B8BBC551 /* Pods-SidewalkSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D6E746574FE7DB9C87CE67F815916D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3190F0496FC0CC1194FF34688974E53 /* Pods-SidewalkSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C82A1DF46238EBA8BC2E4D8703D4932 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SidewalkSDK;
+			target = 7720B4F5A906FE27F3E668433E494642 /* SidewalkSDK */;
+			targetProxy = 631C6DA2B637764C9DBE1D519EE77EEA /* PBXContainerItemProxy */;
+		};
+		901669BA7AEAB070A3F4B9C4039A08BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SidewalkSDK_Example";
+			target = 6927FFACD9C9A76FFD12A17F92121693 /* Pods-SidewalkSDK_Example */;
+			targetProxy = 549CC047FD536F02845F37CDDCBB92E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D8F0E1A04DFF859613BD49F6286AC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89258132492AE4D5E9FF0422491EF414 /* Pods-SidewalkSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SidewalkSDK_Tests/Pods-SidewalkSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SidewalkSDK_Tests/Pods-SidewalkSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		490A9E7C69951A6187BED399166E8F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41EA61871FB721619AA7B493D77D077B /* Pods-SidewalkSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SidewalkSDK_Tests/Pods-SidewalkSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SidewalkSDK_Tests/Pods-SidewalkSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		55F8841BF0868A0BC7EE5FD48CF3E6F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6681540BD9619B37058BAF905BBAFCA2 /* SidewalkSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SidewalkSDK/SidewalkSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SidewalkSDK/SidewalkSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SidewalkSDK/SidewalkSDK.modulemap";
+				PRODUCT_MODULE_NAME = SidewalkSDK;
+				PRODUCT_NAME = SidewalkSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B850BE602415A5B746638C4E06D79031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C65804E1E654952781DF3701898E0A5B /* Pods-SidewalkSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SidewalkSDK_Example/Pods-SidewalkSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SidewalkSDK_Example/Pods-SidewalkSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD9A1DB575CCA7F6EBF1D7385D2AB5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA46FDB8A2C3643A9D59644F63E18566 /* SidewalkSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SidewalkSDK/SidewalkSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SidewalkSDK/SidewalkSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SidewalkSDK/SidewalkSDK.modulemap";
+				PRODUCT_MODULE_NAME = SidewalkSDK;
+				PRODUCT_NAME = SidewalkSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D45D8E68043610EBA27E83D6E7A8487F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CADEF1BA2D55AECB58AD34F054C0E5F /* Pods-SidewalkSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SidewalkSDK_Example/Pods-SidewalkSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SidewalkSDK_Example/Pods-SidewalkSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1669D4160C380C14894DA6B18CFBE8BD /* Build configuration list for PBXNativeTarget "SidewalkSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F8841BF0868A0BC7EE5FD48CF3E6F2 /* Debug */,
+				CD9A1DB575CCA7F6EBF1D7385D2AB5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A88CEA78C2B35E542AC6C34FE968A760 /* Build configuration list for PBXNativeTarget "Pods-SidewalkSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8F0E1A04DFF859613BD49F6286AC30 /* Debug */,
+				490A9E7C69951A6187BED399166E8F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB762B5F25CDD56A38A0CEDFF79FA1DE /* Build configuration list for PBXNativeTarget "Pods-SidewalkSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45D8E68043610EBA27E83D6E7A8487F /* Debug */,
+				B850BE602415A5B746638C4E06D79031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
